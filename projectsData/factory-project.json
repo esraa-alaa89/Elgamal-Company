@@ -1,0 +1,18 @@
+[
+  {
+    "projectName": "El-gamal Factory",
+    "projectMainImg": "Aseets/Projects-imgs/Factory/pic-1.jpg",
+    "projectImgslist": [
+        "Aseets/Projects-imgs/Factory/pic-1.jpg",
+        "Aseets/Projects-imgs/Factory/pic-2.jpg", 
+        "Aseets/Projects-imgs/Factory/pic-3.jpg", 
+        "Aseets/Projects-imgs/Factory/pic-4.jpg", 
+        "Aseets/Projects-imgs/Factory/pic-5.jpg", 
+        "Aseets/Projects-imgs/Factory/pic-6.jpg"
+    ],
+    "projectLocation": "Badr City",
+    "projectArea": "",
+    "projectDetails": "El-gamal Factory emphasis on Engineering Industries"
+  }
+
+]
