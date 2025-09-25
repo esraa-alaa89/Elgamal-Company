@@ -1,0 +1,497 @@
+
+/* MEDIA SCREEN CODE */
+
+@media screen and (min-width:0px) {
+  header{
+    padding-top: 28px;
+  }
+  body.mob-nav{
+    overflow: hidden;
+    height: 100%;
+    height: 100vh;
+  }
+}
+
+/* **************************** */
+@media screen and (min-width:0px) and (max-width:1200px) {
+  /* HEADER STYLE */
+  header .nav-logo .logo-click{
+    width: 60px;
+    height: 50px;
+  }
+  header .nav-logo .logo-click .logo-img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* **************************** */
+@media screen and (min-width:0px) and (max-width:600px) {
+  /* HEADER SECTION */
+  header .navigation .header-phone i , .header-phone span{
+    font-size: 14px;
+  }
+
+  /* HOME SECTION */
+  .home-sec .swiper-slide .home-content .home-congrats{
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 14px;
+  }
+  .home-sec .swiper-slide .home-content .home-title{
+    font-size: 93px;
+    line-height: 84px;
+    margin: 4px 0;
+  }
+  .home-sec .swiper-slide .home-content .first-slide-title{
+    font-size: 41px;
+    text-align: center;
+    line-height: 84px;
+    margin: 4px 0;
+  }
+  .home-sec .swiper-slide .home-content .home-focus{
+    font-size: 24px;
+  }
+  .home-sec .swiper-slide .home-content .home-caption{
+    font-size: 16px;
+    border-color: blueviolet;
+    width: 100%;
+  } 
+  .home-sec .swiper-button-prev , .home-sec .swiper-button-next{
+    font-size: 14px;
+  }
+
+  /* TITLES&MENI_TITLES OF SECTIONS */
+  .about-sec .right-about h1 , .service-sec .service-title h1 , .projects-sec .projects-title h1 , .about-layout .about-title h1 , .services-layout .services-title h1 , .projects-layout .projects-title h1 , .contact-layout .contact-title h1{
+    font-size: 18px;
+  }
+  .about-sec .right-about h2 , .service-sec .service-title h2 , .projects-sec .projects-title h2 , .about-layout .about-title h2 , .services-layout .services-title h2 , .projects-layout .projects-title h2 , .contact-layout .contact-title h2{
+    font-size: 32px;
+  }
+
+  /* PROJECTS SECTION */
+  .projects-sec .swiper-slide{
+    
+    /* font-family: "Roboto", Helvetica, Arial, sans-serif; */
+    font-weight: 400 !important;
+  }
+  .projects-sec .swiper-slide h4 {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+  .projects-sec .swiper-slide i {
+    font-size: 1.3rem;
+  }
+}
+
+/* **************************** */
+@media screen and (min-width:0px) and (max-width:990px) {
+  /* HEADER STYLE */
+  header.show{
+    color: #fff !important;
+  }
+  header nav .nav-logo{
+    z-index: 999999999999;
+  }
+
+  header nav .nav-logo .logo-click{
+    width: 80px;
+    height: 60px;
+  }
+  header .navigation .navbar-collapse{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-color: var(--logo-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    text-shadow: 1px 1px 3px var(--logo-color);
+  }
+  header .navigation .navbar-collapse #particles-2{
+    display: block;
+    position: absolute;
+    inset: 0;
+    opacity: 0.6;
+    background: rgba(0, 0, 0, .2);;
+    z-index: 3;
+    pointer-events: none;
+  }
+  header .navbar-collapse.show {
+    transform: translateX(0);
+  }
+  header .navbar-collapse ul.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    z-index: 2;
+  }
+  header .navbar-collapse ul.navbar-nav li {
+    margin: 14px 0;
+  }
+  header nav .navigation ul li a{
+    cursor: pointer;
+  }
+  header.show .navigation a , header .header-phone i , header .header-phone span{
+    color: #ffffff !important;
+    font-size: 1.6rem;
+  }
+  /* HANDLE PROJECTS_MENU DISPLAY */
+
+  header nav .navigation ul li.nav-item:has(> a:not([href])) .projects-menu
+  {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    padding: 0 14px;
+    opacity: 0;
+    height: 0;
+    opacity: 0;
+    transform: none;
+    display: block;
+  }
+  header nav .navigation ul li.nav-item:has(> a:not([href])) .projects-menu.open{
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    opacity: 1 !important;
+    bottom: 0;
+    transition: all 0.5s;
+  }
+  header nav .navigation ul li.nav-item:has(> a:not([href])) .projects-menu li
+  {
+    margin: 0;
+  }
+  /* to cancel hover_effect on projects_link that occures in large screens */
+  header nav .navigation ul li.nav-item:has(> a:not([href])):hover .projects-menu{
+    height: 0;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  header nav .navigation ul li .projectsMenu-icon {
+    display: inline-block;
+    margin-left: 6px;
+    transition: all 0.5s;
+  }
+  header nav .navigation ul li .projectsMenu-icon.rotate {
+    transform: rotate(180deg);
+  }
+  
+  header nav .navigation ul li.nav-item:has(> a:not([href])):hover .projects-menu a.nav-link::after{
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  
+  /* ***************** */
+
+  header .navbar-collapse ul.navbar-nav li.projects-item .projectsMenu-icon {
+    margin-left: 8px;
+    font-size: 0.9em;
+    display: inline-block;
+    transition: all 0.5s ease;
+  }
+ 
+  header nav .navigation .navbar-collapse ul.navbar-nav li ul.projects-menu li a{
+    font-size: 1.2rem;
+  }
+  header li a::after{
+    bottom: -4px;
+  }
+  header .navbar-collapse ul.navbar-nav li a:hover{
+    left: 0;
+  }
+  header .exit-navbar{
+    display: block !important;
+    position: absolute;
+    top: 44px;
+    right: 28px;
+    font-size: 2.3rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  header .exit-navbar:hover {
+    transform: rotate(180deg);
+    color: rgba(167, 41, 41, 0.887);
+  }
+  header.show header .header-phone {
+    font-size: 1.4em !important;
+    margin-top: 30px !important;
+  }
+  header nav button{
+    background-color: var(--logo-color) !important;
+    border: none;
+    transition: all 0.5s;
+  }
+  header nav button i{
+    color: #fff !important;
+    font-size: 2rem;
+    transition: all 0.5s ease-in-out;
+  }
+  header nav button:hover{
+    box-shadow: 0 0 2px #01274e;
+  }
+  header nav button:hover .fa-bars{
+    transform: translateX(4px);
+  }
+  
+  
+  /* ABOUT SECTION */
+  .about-state-sec .about-state-card .about-state-text h3.about-counter{
+    font-size: 32px;
+  }
+  .about-state-sec .about-state-card .about-state-text p{
+    font-size: 21px;
+  }
+
+  /* ABOUT PAGE */
+  .about-body .about-content .about-history h3, .about-body .about-content .about-evolution h3, .about-highlights .values-card h3, .about-highlights .vision-card h3, .about-highlights .mission-card h3, .about-certifications .certification-title h3, .about-parteners .parteners-title h3, .services-cards-sec .service-content h3, .single-project-container .single-project-card h3, .contact-body .contact-intro h3
+  {
+    font-size: 1em;
+    letter-spacing: 2px;
+  }
+
+  /* PROJECTS PAGE */
+  .img-slider-overlay .slider-content img {
+    height: 65%;
+  }
+  .img-slider-overlay .slider-content .prev-btn, .img-slider-overlay .slider-content .next-btn
+  {
+    font-size: 2rem;
+  }
+  .img-slider-overlay .slider-content .prev-btn{
+    left: 43%;
+  }
+  .img-slider-overlay .slider-content .next-btn{
+    right: 43%;
+  }
+
+  /* FOOTER SECTION */
+  footer .left-footer img{
+    padding-right: 18px;
+    width: 74px;
+    height: 60px;
+  }
+  footer .left-footer h3{
+    font-size: 1.8rem;
+  }
+  footer .left-footer p{
+    font-size: 0.9rem;
+  }
+  footer .left-footer button{
+    background-color: var(--paragraph-color);
+    color: #f7f7f7;
+    font-size: 14px;
+    padding: 14px 0;
+    border-color: var(--paragraph-color);
+    border-radius: 4px;
+    line-height: 1.1rem;
+    transition: all 0.5s;
+    overflow: hidden;
+  }
+  footer .right-footer .card-link a{
+    font-size: 0.8rem;
+  }
+}
+
+
+@media screen and (min-width:991px) and (max-width:1430px) {
+  .img-slider-overlay .slider-content .prev-btn, .img-slider-overlay .slider-content .next-btn
+  {
+    font-size: 2rem;
+  }
+  .img-slider-overlay .slider-content .prev-btn{
+    left: 45%;
+  }
+  .img-slider-overlay .slider-content .next-btn{
+    right: 45%;
+  }
+}
+
+/* **************************** */
+@media screen and (min-width:601px) and (max-width:900px) {
+  /* HOME SECTION */
+  .home-sec .swiper-slide .home-content .home-title{
+    font-size: 133px; 
+    line-height: 60px;
+  }
+  .home-sec .swiper-slide .home-content .first-slide-title{
+    font-size: 41px;
+    text-align: center;
+    width: 100%;
+  }
+  .home-sec .swiper-slide .home-content .home-focus:nth-of-type(2){
+    font-size: 39px !important;
+    text-shadow: 1px 0px 1px #fff;
+  }
+  .home-sec .swiper-slide .home-content .home-focus{
+    font-size: 29px;
+    text-shadow: 1px 0px 1px #fff;
+  }
+  .home-sec .swiper-slide .home-content .home-caption{
+    font-size: 18px;
+    text-shadow: 1px 0px 1px #fff;
+    width: 75%;
+  }
+  .home-sec .swiper-button-prev , .home-sec .swiper-button-next{
+    font-size: 14px !important;
+  }
+}
+
+/* **************************** */
+@media screen and (min-width:0px) and (max-width:800px) {
+
+  /* ABOUT SECTION */
+  .about-state-sec .about-state-container{
+    padding: 0;
+  }
+  .about-state-sec .about-state-container .about-state-card{
+    /* border: 1px solid #fff; */
+    margin-bottom: 0;
+  }
+  .about-state-sec .about-state-container .about-state-card h3{
+    padding-top: 12px;
+  }
+  .about-state-sec .about-state-container .about-state-card p{
+    line-height: 17px;
+  }
+  .about-state-sec .about-state-container .about-state-card::after{
+    width: 0;
+    height: 0;
+  }
+}
+
+/* **************************** */
+@media screen and (min-width:901px) and (max-width:1000px) {
+  .home-sec .swiper-slide .home-content .first-slide-title{
+    font-size: 81px;
+  }
+}
+
+/* **************************** */
+@media screen and (min-width:991px) and (max-width:1140px) {
+  /* ABOUT SECTION */
+  .about-state-sec .about-state-card .about-state-text h3.about-counter{
+    font-size: 32px;
+  }
+  .about-state-sec .about-state-card .about-state-text p{
+    font-size: 21px;
+  }
+}
+
+/* **************************** */
+@media screen and (min-width:800px) and (max-width:3000px) {
+  header{
+    padding: 28px 0;
+  }
+}
+
+@media screen and (min-width:990px) and (max-width:1235px) {
+  /* HEADER SECTION */
+  header .navigation li{
+    margin-right: 4px;
+  }
+  header .navigation a{
+    font-size: 15px;
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+  }
+  header .navigation .header-phone i , header .navigation .header-phone span{
+    font-size: 15px;
+  }
+
+  /* HOME SECTION */
+  .home-sec .swiper-slide .home-content .home-caption{
+    font-size: 19px;
+    width: 75%;
+  }
+}
+
+@media screen and (min-width:0px) {
+  /* ABOUT SECTION */
+  .about-state-sec .about-state-card .about-state-text h3.about-counter{
+    color: #000;
+  }
+  .about-state-card p{
+    color: var(--paragraph-color) !important;
+    text-shadow: 1px 1px 3px var(--paragraph-color);
+  }
+}
+
+@media screen and (min-width:1200px) and (max-width:1340px) {
+   /* ABOUT SECTION */
+  .about-state-sec .about-state-card .about-state-text h3.about-counter{
+    font-size: 32px;
+    color: #000;
+  }
+  .about-state-sec .about-state-card p{
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width:1341px) {
+/* ABOUT SECTION */
+  .about-state-sec .about-state-card .about-state-text h3.about-counter{
+    font-size: 38px;
+  }
+  .about-state-sec .about-state-card p{
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width:1236px) and (max-width:1600px) {
+  /* HEADER SECTION */
+  header .navigation a{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header .navigation .header-phone i , header .navigation .header-phone span{
+    font-size: 18px;
+  }
+
+  /* HOME SECTION */
+  .home-sec .swiper-slide .home-content .home-caption{
+    font-size: 21px;
+    width: 75%;
+  }
+  
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+  footer .left-footer img{
+    width: 120px;
+    height: 70px;
+  }
+}
+
+@media screen and (min-width:801px) and (max-width:990px) {
+  footer .left-footer img{
+    width: 120px;
+    height: 90px;
+  }
+}
+
+@media screen and (min-width:991px) and (max-width:1700px) {
+  footer .left-footer img{
+    width: 101px;
+    height: 85px;
+  }
+}
+
+@media screen and (min-width:1401px) and (max-width:1700px) {
+  footer .left-footer img{
+    width: 140px;
+    height: 90px;
+  }
+}
+
