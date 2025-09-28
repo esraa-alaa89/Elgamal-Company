@@ -58,8 +58,8 @@ export function animateHomePage() {
         animate(
             el,
             { 
-                opacity: [0, 0.7], 
-                y: [1000, 0] 
+                opacity: [0, 1], 
+                y: [500, 0] 
             },
             {
                 duration: 1,

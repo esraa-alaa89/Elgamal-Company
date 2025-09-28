@@ -53,7 +53,7 @@ export function singleProject(container, projectType) {
                             }
                         </div>
 
-                        <div class="col-lg-7 m-auto text-center bg-danger">
+                        <div class="col-lg-7 m-auto text-center">
                             <div class="main-project-img m-auto text-center position-relative">
                                 <div class="img-overlay"></div>
                                 <img class="img-fluid" src="${project.projectMainImg}" alt="${project.projectName}" loading="lazy" />

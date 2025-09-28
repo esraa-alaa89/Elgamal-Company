@@ -64,8 +64,8 @@ function renderProjectsPage(container, projectTypeHead, limit) {
     
     container.innerHTML += `<section class="project-body my-5">
       <div class="container">
-        <h3 class="text-danger">${projectTypeHead}</h3>
-        <div class="row bg-secondary">
+        <h3>${projectTypeHead}</h3>
+        <div class="row">
           ${projectCards}
           <hr />
         </div>

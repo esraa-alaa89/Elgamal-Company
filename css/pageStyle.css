@@ -16,7 +16,6 @@ main .about-layout , main .services-layout , .projects-layout , .contact-layout{
 }
 .body-arrow-container{
     width: 100%;
-    background-color: red;
     transition: all 0.5s;
     cursor: pointer;
 }

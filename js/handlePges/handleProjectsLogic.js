@@ -37,7 +37,7 @@ export function handleProjectsLogic() {
 
                 const projectCards = limitedData.map(project => `
                     <div class="row d-flex swiper-slide">           
-                        <div class="project-card bg-info">
+                        <div class="project-card">
                             <img class="img-fluid" src="${project.projectMainImg}" alt="${project.projectName}" loading="lazy" />
 
                             <div class="project-info d-flex justify-content-between align-items-center"> 

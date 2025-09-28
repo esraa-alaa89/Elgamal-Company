@@ -114,7 +114,7 @@ export default function renderContactPage(container) {
                                 </div>
                                 <div class="contact-item mb-5">
                                     <i class="fa-solid fa-envelope"></i>
-                                    <a href="mailto:info@el-gamalgroup.com" class="email-anchor" target="_blank">El-Gamal_Group.com</a>
+                                    <a href="mailto:esraaalaa2080@gmail.com" class="email-anchor" target="_blank">El-Gamal_Group.com</a>
                                 </div>
                             </div>
                         </div>
