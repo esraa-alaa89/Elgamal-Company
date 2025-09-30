@@ -49,23 +49,20 @@ window.addEventListener('hashchange', renderPageByHash);
 document.addEventListener("DOMContentLoaded", () => {
   const preloader = document.getElementById("preloader");
 
-  setTimeout(() => {
-    preloader.classList.add("show-spinner");
-  }, 500);
-
   // when website is loaded
   window.addEventListener("load", () => {
-    setTimeout(() => {
       preloader.classList.add("hide");
-
-      // setTimeout(() => preloader.remove(), 1000);
-
       document.body.style.overflow = "auto";
       renderPageByHash();
-    },1500)
   });
 
   // to stop initial virtical scroll
   document.body.style.overflow = "hidden";
 });
 
+// document.addEventListener("DOMContentLoaded", () => {
+//   const lazyBg = document.querySelector(".lazy-bg");
+//   setTimeout(() => {
+//     lazyBg.classList.add("loaded");
+//   }, 500); 
+// });

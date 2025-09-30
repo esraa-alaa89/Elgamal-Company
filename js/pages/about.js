@@ -7,7 +7,7 @@ export default function renderAboutPage(container) {
     <div class="about-page">
     
         <!-- ABOUT-LAYOUT SECTION -->
-        ${displayHeader('about-layout' , 'about-title' , 'who we are' , 'About El-Gamal Group' , 'Aseets/about/about-bg.jpg' , 'about-body')};
+        ${displayHeader('about-layout' , 'about-title' , 'who we are' , 'About El-Gamal Group' , 'Aseets/about/about-bg.webp' , 'about-body')};
 
         <!-- ABOUT-HISTORY&EVOLUTION SECTION -->
         <section class="about-body mb-5 my-5">
@@ -57,7 +57,7 @@ export default function renderAboutPage(container) {
                     <div class="col-lg-6">
                         <div class="about-content">
                             <div class="about-img">
-                                <img src="Aseets/nav/elgamal-logo(bg).jpg" alt="EL-GAMAL GROUP">
+                                <img src="Aseets/nav/elgamal-logo(bg).webp" alt="EL-GAMAL GROUP" loading="lazy">
                                 <div class="about-img-overlay px-5">
                                     <i class="fa-solid fa-quote-left"></i>
                                     <p class="mb-0 text-center">
@@ -82,7 +82,7 @@ export default function renderAboutPage(container) {
 
                     <div class="col-12">
                         <div class="about-content">
-                            <img class="img-fluid" src="Aseets/about/about-img3.jpg" alt="">
+                            <img class="img-fluid" src="Aseets/about/about-img3.webp" alt="" loading="lazy">
                         </div>
 
                     </div>
@@ -124,7 +124,7 @@ export default function renderAboutPage(container) {
                     <div class="col-12">
                         <div class="values-card">
                             <h3>Our Values</h3>
-                            <img class="img-fluid mb-5" src="Aseets/about/about-values.jpg" alt="">
+                            <img class="img-fluid mb-5" src="Aseets/about/about-values.webp" alt="" loading="lazy">
                             <p>
                                 At El-Gamal Group, we capitalize on our deep-rooted expertise, multidisciplinary teams, and expansive operational presence to foster impactful collaborations with startups. By enabling pilot implementations in real-world environments, we bridge innovation with execution—transforming novel ideas into scalable, strategic solutions that enhance our construction practices and operational standards.
                             </p>
@@ -147,7 +147,7 @@ export default function renderAboutPage(container) {
                             <div class="certificate-name">
                                 <span>ISO 45001 Certificate (OHSMS)</span>
                             </div>
-                            <img class="img-fluid" src="Aseets/ISO/iso-1.png" alt="">
+                            <img class="img-fluid" src="Aseets/ISO/iso-1.webp" alt="" loading="lazy">
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 text-center mb-5">
@@ -155,7 +155,7 @@ export default function renderAboutPage(container) {
                             <div class="certificate-name">
                                 <span>ISO 45001 Certificate (QMS)</span>
                             </div>
-                            <img class="img-fluid" src="Aseets/ISO/iso-2.png" alt="">
+                            <img class="img-fluid" src="Aseets/ISO/iso-2.webp" alt="" loading="lazy">
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 m-auto text-center mb-5">
@@ -163,7 +163,7 @@ export default function renderAboutPage(container) {
                             <div class="certificate-name">
                                 <span>ISO 14001 Certificate (EMS)</span>
                             </div>
-                            <img class="img-fluid" src="Aseets/ISO/iso-3.png" alt="">
+                            <img class="img-fluid" src="Aseets/ISO/iso-3.webp" alt="" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -181,31 +181,31 @@ export default function renderAboutPage(container) {
                     <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="logo-card">
-                                    <img class="img-fluid" src="Aseets/Logos/Elgamal1-logo.jpg" alt="">
+                                    <img class="img-fluid" src="Aseets/Logos/Elgamal1-logo.webp" alt="" loading="lazy">
                                 </div>
                             </div>
                             
                             <div class="swiper-slide">
                                 <div class="logo-card">
-                                    <img class="img-fluid" src="Aseets/Logos/Elgamal3-logo.jpg" alt="">
+                                    <img class="img-fluid" src="Aseets/Logos/Elgamal3-logo.webp" alt="" loading="lazy">
                                 </div>
                             </div>
                             
                             <div class="swiper-slide">
                                 <div class="logo-card">
-                                    <img class="img-fluid" src="Aseets/Logos/Elgamal2-logo.jpg" alt="">
+                                    <img class="img-fluid" src="Aseets/Logos/Elgamal2-logo.webp" alt="" loading="lazy">
                                 </div>
                             </div>
                             
                             <div class="swiper-slide">
                                 <div class="logo-card">
-                                    <img class="img-fluid" src="Aseets/Logos/Arkan-logo.jpg" alt="">
+                                    <img class="img-fluid" src="Aseets/Logos/Arkan-logo.webp" alt="" loading="lazy">
                                 </div>
                             </div>
                             
                             <div class="swiper-slide">
                                 <div class="logo-card">
-                                    <img class="img-fluid" src="Aseets/Logos/NakheilMasr-logo.jpg" alt="">
+                                    <img class="img-fluid" src="Aseets/Logos/NakheilMasr-logo.webp" alt="" loading="lazy">
                                 </div>
                             </div>
                         </div>

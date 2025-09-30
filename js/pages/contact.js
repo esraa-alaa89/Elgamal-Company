@@ -16,7 +16,7 @@ export default function renderContactPage(container) {
             </section>
         
             <!-- CONTACT-LAYOUT SECTION -->
-            ${displayHeader('contact-layout' , 'contact-title' , 'thank tou for your attention' , 'Our contact' , 'Aseets/contact/contact-bg.jpg' , 'contact-body')}
+            ${displayHeader('contact-layout' , 'contact-title' , 'thank tou for your attention' , 'Our contact' , 'Aseets/contact/contact-bg.webp' , 'contact-body')}
 
 
             <section class="contact-body" id="contact-body">

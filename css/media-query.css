@@ -302,7 +302,16 @@
     font-size: 0.8rem;
   }
 }
+/* **************************** */
 
+@media screen and (min-width:700px) and (max-width:990px) {
+  .img-slider-overlay .slider-content .prev-btn {
+      right: 43%;
+  }
+  .img-slider-overlay .slider-content .next-btn {
+      right: 43%;
+  }
+}
 
 @media screen and (min-width:991px) and (max-width:1430px) {
   .img-slider-overlay .slider-content .prev-btn, .img-slider-overlay .slider-content .next-btn
@@ -495,3 +504,7 @@
   }
 }
 
+::selection{
+  background-color: var(--logo-color) !important;
+  color: #ffffff !important;
+}

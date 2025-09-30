@@ -18,7 +18,6 @@ body{
   line-height: 1;
   color: var(--paragraph-color);
   text-rendering: optimizeLegibility;
-  /* overflow: hidden; */
 }
 ul,dl{
   padding: 0;
@@ -79,32 +78,6 @@ svg path{
     transform: translateY(0);
   }
 }
-
-
-/* .fa-spinner {
-  color: #ccc;
-  font-size: 5rem;
-  opacity: 0;
-  transform: scale(0.7);
-  z-index: 9999999999999999;
-  animation: spinnerAnimation 1s linear infinite;
-  transition: all 0.5s ease;
-} */
-/* @keyframes spinnerAnimation {
-  to {
-    transform: rotate(180deg);
-  }
-}
-#preloader.show-spinner .fa-spinner {
-  opacity: 1;
-  transform: scale(1);
-} */
-/* when initial-loader be hidden */
-/* #preloader.hide {
-  opacity: 0;
-  transform: translateY(-100%);
-  visibility: hidden;
-} */
 
 /* HEADER STYLE */
 #particles-2{
@@ -393,18 +366,21 @@ header .navigation .header-phone:hover i{
   border-radius: 14px;
   margin-top: 84px;
   overflow: hidden;
+  cursor: pointer;
   transition: all 0.5s;
 }
 .home-sec .swiper-slide .home-content .home-profile-btn a.home-profile-click{
   color: #fff;
   font-size: 28px;
   font-weight: 500;
+  cursor: pointer;
   transition: all 0.5s;
 }
 .home-sec .swiper-slide .home-content .home-profile-btn i.home-profile-icon{
   color: #fff !important;
   font-size: 21px;
   padding-left: 10px;
+  cursor: pointer;
   transition: all 0.5s;
 }
 .home-sec .swiper-slide .home-content .home-profile-btn:hover{
@@ -560,7 +536,6 @@ header .navigation .header-phone:hover i{
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 16.67%, rgba(0, 0, 0, .46) 49.59%, rgba(0, 0, 0, .7) 82.54%);
 
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 16.67%, rgba(0, 0, 0, .56) 49.59%, rgba(0, 0, 0, .7) 92.54%);
-  /* padding: 34px 12px; */
   border-radius: 4px;
 }
 .about-state-container{
@@ -568,7 +543,6 @@ header .navigation .header-phone:hover i{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* background-color: rgba(0, 0, 0, 0.4); */
   width: 100%;
   height: 100%;
   padding: 28px 0;
@@ -629,7 +603,7 @@ header .navigation .header-phone:hover i{
 .service-sec .service-content{
   width: 100%;
   height: 50vh;
-  background: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url(../Aseets/services/service-1.jpg) center center / cover no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.3)) , url(../Aseets/services/service-1.webp) center center / cover no-repeat;
   transition: all 0.5s ease-in-out;
 }
 .service-sec .service-card{

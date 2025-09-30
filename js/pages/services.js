@@ -6,7 +6,7 @@ export default function renderServicesPage(container) {
     <div class="services-page">
     
         <!-- SERVICES-LAYOUT SECTION -->
-        ${displayHeader('services-layout' , 'services-title' , 'what we do' , 'Our Services' , 'Aseets/services/services-bg.jpg' , 'services-body')};
+        ${displayHeader('services-layout' , 'services-title' , 'what we do' , 'Our Services' , 'Aseets/services/services-bg.webp' , 'services-body')};
 
         <!-- SERVICES-INTRTO SECTION -->       
         <section class="services-intro my-5">
@@ -33,7 +33,7 @@ export default function renderServicesPage(container) {
                     <div class="col-lg-6 my-3">
                         <div class="service-content left-service">
                             <div class="service-img">
-                                <img class="img-fluid" src="Aseets/services/service-7.jpg" alt="CONSTRUCTION">
+                                <img class="img-fluid" src="Aseets/services/service-7.webp" alt="CONSTRUCTION">
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ export default function renderServicesPage(container) {
                     <div class="col-lg-6 my-3">
                         <div class="service-content right-service">
                             <div class="service-img img-1">
-                                <img class="img-fluid" src="Aseets/services/service-8.jpg" alt="Roads pic">
+                                <img class="img-fluid" src="Aseets/services/service-8.webp" alt="Roads pic">
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@ export default function renderServicesPage(container) {
                     <div class="col-lg-6 my-3">
                         <div class="service-content left-service">
                             <div class="service-img">
-                                <img class="img-fluid" src="Aseets/services/service-10.jpg" alt="Infrastructure pic">
+                                <img class="img-fluid" src="Aseets/services/service-10.webp" alt="Infrastructure pic">
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@ export default function renderServicesPage(container) {
                     <div class="col-lg-6 my-3">
                         <div class="service-content right-service">
                             <div class="service-img">
-                                <img class="img-fluid" src="Aseets/services/service-11.jpg" alt="Roads and bridges">
+                                <img class="img-fluid" src="Aseets/services/service-11.webp" alt="Roads and bridges">
                             </div>
                         </div>
                     </div>
@@ -128,7 +128,7 @@ export default function renderServicesPage(container) {
                     <div class="col-lg-6 my-3">
                         <div class="service-content left-service">
                             <div class="service-img">
-                                <img class="img-fluid" src="Aseets/services/service-12.jpg" alt="Roads and bridges">
+                                <img class="img-fluid" src="Aseets/services/service-12.webp" alt="Roads and bridges">
                             </div>
                         </div>
                     </div>
@@ -170,7 +170,7 @@ export default function renderServicesPage(container) {
                     <div class="col-lg-6 my-3">
                         <div class="service-content right-service">
                             <div class="service-img">
-                                <img class="img-fluid" src="Aseets/services/service-13.jpg" alt="Roads and bridges">
+                                <img class="img-fluid" src="Aseets/services/service-13.webp" alt="Roads and bridges">
                             </div>
                         </div>
                     </div>

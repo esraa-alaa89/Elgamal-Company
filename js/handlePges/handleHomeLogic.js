@@ -4,21 +4,21 @@ export function handleHomeLogic() {
   // ********* SWIPER HANDLING *********
   const homeSwiperData= [
     {
-      image: 'Aseets/home-swiper/swiper-1.jpg',
+      image: 'Aseets/home-swiper/swiper-1.webp',
       title: 'EL-GAMAL GROUP',
       metaTitle: 'for constructing & trading & import',
       paragraph: 'Leading transformative growth across infrastructure, logistics, and trade by combining expertise with a future-forward mindset.',
     },
 
     {
-      image: 'Aseets/home-swiper/swiper-2.jpg',
+      image: 'Aseets/home-swiper/swiper-2.webp',
       title: '16',
       metaTitle: 'years of experince',
       paragraph: 'Built on decades of reliability, innovation, and client-focused solutions that consistently exceed expectations.',
     },
 
     {
-      image: 'Aseets/home-swiper/swiper-3.jpg',
+      image: 'Aseets/home-swiper/swiper-3.webp',
       title: '103',
       metaTitle: 'Projects Delivered with Excellence',
       paragraph: 'From concept to completion, our portfolio reflects precision, collaboration, and lasting value across every project.',
@@ -32,7 +32,7 @@ export function handleHomeLogic() {
   homeSwiperData.forEach((slide, index) => {
     const isFirst = index === 0;
     slideDiv = document.createElement('div');
-    slideDiv.className = 'swiper-slide';
+    slideDiv.className = 'swiper-slide lazy-bg';
     slideDiv.style.backgroundImage = `linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url('${slide.image}')`;
 
     const welcomeMessage = isFirst ? 'Welcome to' : '';
@@ -102,32 +102,32 @@ export function handleHomeLogic() {
   // ********* SERVICES_SECTION *********
   const servicesData= [
     {
-      image: 'Aseets/services/service-1.jpg',
+      image: 'Aseets/services/service-1.webp',
       title: 'Construction'
     },
 
     {
-      image: 'Aseets/services/service-2.jpg',
+      image: 'Aseets/services/service-2.webp',
       title: 'Roads and Bridges'
     },
 
     {
-      image: 'Aseets/services/service-3.jpg',
+      image: 'Aseets/services/service-3.webp',
       title: 'Infrastructure'
     },
 
     {
-      image: 'Aseets/services/service-4.jpg',
+      image: 'Aseets/services/service-4.webp',
       title: 'Lining of canals'
     },
 
     {
-        image: 'Aseets/services/service-5.jpg',
+        image: 'Aseets/services/service-5.webp',
         title: 'Maintenance and restoration'
     },
 
     {
-        image: 'Aseets/services/service-6.jpg',
+        image: 'Aseets/services/service-6.webp',
         title: 'Finishing and decoration'
     },
 

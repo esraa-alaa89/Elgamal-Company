@@ -29,7 +29,7 @@ export default function renderHomePage(container) {
                 <div class="col-12 col-lg-6">
                     <div class="left-about row flex-lg-column gx-4 gx-lg-0 pb-5 pb-lg-0">
                         <div class="left-about-img">
-                            <img class="" src="Aseets/about/richard-vijay-svl9YT3O8YQ-unsplash.jpg" alt="">
+                            <img class="" src="Aseets/about/richard-vijay-svl9YT3O8YQ-unsplash.webp" alt="">
                         </div>
                     </div>
                 </div>
@@ -249,7 +249,7 @@ export default function renderHomePage(container) {
             </div>
 
             <!-- SERVICES CONTENT -->
-            <div class="service-content">
+            <div class="service-content lazy-bg">
                 <div class="d-flex flex-wrap h-100 p-0"></div>
             </div>
         </div>
